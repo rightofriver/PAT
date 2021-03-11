@@ -20,7 +20,12 @@ int main()
         int cnt, num;
         cin >> cnt;
         int flag = 0;
-        vector<int> hash(m, 0);
+        // vector<int> hash;
+        // for(int i = 0;i < m;i++)
+        // {
+        //     hash.push_back(0);
+        // }
+        vector<int> hash(m,0);
         for (int j = 0; j < cnt; j++)
         {
             cin >> num;
